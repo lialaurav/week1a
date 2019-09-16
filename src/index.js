@@ -33,7 +33,7 @@ function insert(id) {
       spots[id] = "X";
       turn = 2;
       if (checkAll("X") == 1) {
-        alert("Player 1 has won!");
+        alert("Player 1 won!");
         turn = 0;
       }
     } else {
@@ -45,7 +45,7 @@ function insert(id) {
       spots[id] = "O";
       turn = 1;
       if (checkAll("O") == 1) {
-        alert("Player 2 has won!");
+        alert("Player 2 won!");
         turn = 0;
       }
     } else {
